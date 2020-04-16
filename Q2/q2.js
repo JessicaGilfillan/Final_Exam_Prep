@@ -1,7 +1,7 @@
 // JavaScript Document
 
 class Person {
-  constructor(name, age, gender, classes) {
+  constructor(name, age, gender, interests) {
     this.name;
     this.age = age;
     this.gender = gender;
@@ -23,7 +23,7 @@ let harmanpreet = new Person('Harmanpreet', 22, 'male', ['JavaScript', 'C#', 'Re
 
 
 class Teacher extends Person {
-  constructor(name, last, age, gender, interests, subject, grade) {
+  constructor(name, age, gender, interests, subject, grade) {
     super(name, age, gender, interests);
     // subject and grade are specific to Teacher
     this.subject = subject;
