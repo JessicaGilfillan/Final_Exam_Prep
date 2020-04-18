@@ -13,7 +13,7 @@ class Person {
   };
 
   bye() {
-    console.log(`${this.name.} has left the building. Bye for now!`);
+    console.log(`${this.name} has left the building. Bye for now!`);
   };
 }
 
